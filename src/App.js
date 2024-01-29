@@ -6,7 +6,7 @@ function App() {
     fontFamily: "'Alata', monospace",
     headerFontFamily: "'Noto', sans-serif",
     primaryColor: "#4D423F",
-    background: "#FFFBEB",
+    background: "#EDE8DB",
     heading: "Class Scheduled",
     icon: <Star color="#B4A883" />,
     classes: [
