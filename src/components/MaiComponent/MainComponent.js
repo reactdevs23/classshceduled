@@ -2,9 +2,9 @@ import React from "react";
 import styles from "./MainComponent.module.css";
 const MainComponent = ({
   headerFontFamily,
-  background,
+
   heading,
-  icon,
+
   classes,
 }) => {
   return (

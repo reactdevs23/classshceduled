@@ -5,6 +5,7 @@ function App() {
   const data = {
     fontFamily: "'Alata', monospace",
     headerFontFamily: "'Noto', sans-serif",
+    headerColor: "#4D423F",
     textColor: "#4D423F",
     background: "#EDE8DB",
 
@@ -49,6 +50,7 @@ function App() {
       style={{
         "--textColor": data.textColor,
         "--background": data.background,
+        "--headerColor": data.headerColor,
         fontFamily: data.fontFamily,
       }}
     >
