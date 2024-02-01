@@ -8,7 +8,7 @@ const MainComponent = ({
   classes,
 }) => {
   return (
-    <div className={styles.mainWrapper} style={{ background: background }}>
+    <div className={styles.mainWrapper}>
       <div className={styles.wrapper}>
         <h2 className={styles.heading} style={{ fontFamily: headerFontFamily }}>
           {heading}
@@ -21,7 +21,7 @@ const MainComponent = ({
                 <h3 className={styles.title}>{classes.title}</h3>
                 <p className={styles.info}>{classes.info}</p>
               </div>{" "}
-              <div className={styles.icon}>{icon}</div>
+              <div className={styles.icon}>{classes.icon}</div>
             </div>
           ))}
         </div>
